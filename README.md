@@ -4,7 +4,7 @@ For 16-bit display devices; no color reduction performed.
 Compatible for ATX-2, POP-7, POP-X2, IPST-SE, POP-XT and Unicon Board (INEX Board).
 
 Tools for 16-bit Image Convertor
-
+<img src="https://github.com/krittametthawong/glcdBitmap-Library/blob/main/ImageConverter565%20Tools/imageconvertor_example01.jpg" width="500"> 
 
 Example
 1. INEX Logo
