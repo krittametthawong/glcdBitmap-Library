@@ -3,10 +3,10 @@ Draw a PROGMEM-resident 16-bit image (Applicable for RGB 5/6/5 and BGR 5/6/5) at
 For 16-bit display devices; no color reduction performed. 
 Compatible for ATX-2, POP-7, POP-X2, IPST-SE, POP-XT and Unicon Board (INEX Board).
 
-Tools for 16-bit Image Convertor
+Tools for 16-bit Image Convertor (ImageConverter565)
 <br/> <img src="https://github.com/krittametthawong/glcdBitmap-Library/blob/main/ImageConverter565%20Tools/imageconvertor_example01.jpg" width="600"> 
 
-Example
+Example (on IPST-SE Board)
 1. INEX Logo
 <br/> <img src="https://github.com/krittametthawong/glcdBitmap-Library/blob/main/examples/INEX%20Logo/inexlogo.jpg" width="300">
 2. Gawr Gura
