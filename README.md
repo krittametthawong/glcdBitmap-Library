@@ -6,11 +6,11 @@ Compatible for ATX-2, POP-7, POP-X2, IPST-SE, POP-XT and Unicon Board (INEX Boar
 This library was created to draw bitmap image graphics (Bitmap) using the 16-bit image conversion tool ImageConvertor565. (Already appended in glcdBitmap library folder)
 This library is compatible with IPST-SE, POP-X2, POP-7 or ATX2 boards.
 
-First of all, it must be understood that Graphical LCD display. The color of the INEX board shows line graphics and 65,536 color backgrounds, which define the color bits as BGR (5-6-5), that is, 5 bits of blue followed by 6 bits of green, and ends with the value of 5 bits of red because There are two versions of this type of display produced by color graphic LCD manufacturers, with BGR and RGB color bits arranged.
+First of all, it must be understood that Color Graphical LCD Display of the INEX board shows line graphics and 65,536 color backgrounds, which define the color bits as BGR (5-6-5), that is, 5 bits of blue followed by 6 bits of green, and ends with the value of 5 bits of red. There are two versions of this type of display produced by color graphic LCD manufacturers, with BGR and RGB color bits arranged.
 
 If users uses the ATX-2, POP-7, POP-X2 or IPST-SE circuit board and try to determine the color of the image or the font, then find that the resulting color is not correct, Call the function glcdSetColorWordRGB(); contained in setup() at the beginning of the program.
-Most images have a color value of 24 bits (8-8-8 bits), i.e. 8 bits of red followed by 8 bits of green and ending with 8 bits of blue. 16 bit first (5-6-5 bit) using a conversion tool named ImageConvertor565 (Already appended in glcdBitmap library folder)
 
+Most images have a color value of 24 bits (8-8-8 bits), i.e. 8 bits of red followed by 8 bits of green and ending with 8 bits of blue. 16 bit first (5-6-5 bit) using a conversion tool named ImageConvertor565 (Already appended in glcdBitmap library folder)
 
 Tools for 16-bit Image Convertor (ImageConverter565)
 <br/> <img src="https://github.com/krittametthawong/glcdBitmap-Library/blob/main/ImageConverter565%20Tools/imageconvertor_example01.jpg" width="600"> 
