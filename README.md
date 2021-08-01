@@ -4,6 +4,7 @@ For 16-bit display devices; no color reduction performed.
 Compatible for ATX-2, POP-7, POP-X2, IPST-SE, POP-XT and Unicon Board (INEX Board).
 
 This library was created to draw bitmap image graphics (Bitmap) using the 16-bit image conversion tool ImageConvertor565. (Already appended in glcdBitmap library folder)
+
 This library is compatible with IPST-SE, POP-X2, POP-7 or ATX2 boards.
 
 First of all, it must be understood that Color Graphical LCD Display of the INEX board shows line graphics and 65,536 color backgrounds, which define the color bits as BGR (5-6-5), that is, 5 bits of blue followed by 6 bits of green, and ends with the value of 5 bits of red. There are two versions of this type of display produced by color graphic LCD manufacturers, with BGR and RGB color bits arranged.
