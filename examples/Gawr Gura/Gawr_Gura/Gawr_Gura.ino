@@ -15,18 +15,18 @@ void setup() {
 void loop() {
   glcdClear();
   glcdMode(0);
-  glcdRGBBitmap(1, 34, GawrGura, 126, 126);
+  glcdBitmap(1, 34, GawrGura, 126, 126);
   delay(3000);
   glcdClear();
   glcdMode(1);
-  glcdRGBBitmap(17, 2, GawrGura, 126, 126);
+  glcdBitmap(17, 2, GawrGura, 126, 126);
   delay(3000);
   glcdClear();
   glcdMode(2);
-  glcdRGBBitmap(1, 34, GawrGura, 126, 126);
+  glcdBitmap(1, 34, GawrGura, 126, 126);
   delay(3000);
   glcdClear();
   glcdMode(3);
-  glcdRGBBitmap(17, 2, GawrGura, 126, 126);
+  glcdBitmap(17, 2, GawrGura, 126, 126);
   delay(3000);
 }
